@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:clickable="false"
+    android:contentDescription="@string/app_name"
+    android:fadingEdge="horizontal"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:longClickable="false"
+    tools:context=".Main" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imgBtnNorth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgBtnSouth"
+        android:layout_alignLeft="@+id/imgBtnSouth"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/north_america"
+        android:scaleType="fitCenter"
+        android:src="@drawable/northamerica_btn_img" />
+       
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/menu_instructions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgBtnSouth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgBtnEurope"
+        android:layout_alignLeft="@+id/imgBtnEurope"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/south_america"
+        android:scaleType="fitCenter"
+        android:src="@drawable/southamerica_btn_img" />
+
+    <ImageView
+        android:id="@+id/imgBtnEurope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/europe"
+        android:scaleType="fitCenter"
+        android:src="@drawable/europe_btn_img" />
+
+</RelativeLayout>

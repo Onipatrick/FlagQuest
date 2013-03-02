@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flag Quest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_instructions">Please select a continent to begin your quest.</string>
+    <string name="europe">Europe</string>
+    <string name="north_america">North America</string>
+    <string name="south_america">South America</string>
+    <string-array name="north_country_names">
+        <item >United States</item>
+        <item >Canada</item>
+        <item >Costa Rica</item>
+        <item >Cuba</item>
+        <item >Dominican Republic</item>
+        <item >El Salvador</item>
+        <item >Guatemala</item>
+        <item >Honduras</item>
+        <item >Panama</item>
+        <item >Mexico</item>
+    </string-array>
+    <string-array name="south_country_names">
+        <item >Argentina</item>
+        <item >Bolivia</item>
+        <item >Brazil</item>
+        <item >Chile</item>
+        <item >Colombia</item>
+        <item >Ecuador</item>
+        <item >Paraguay</item>
+        <item >Peru</item>
+        <item >Uruguay</item>
+        <item >Venezuela</item>
+    </string-array>
+    <string-array name="europe_country_names">
+        <item >Austria</item>
+        <item >France</item>
+        <item >Germany</item>
+        <item >Ireland</item>
+        <item >Italy</item>
+        <item >Romania</item>
+        <item >Russia</item>
+        <item >Spain</item>
+        <item >Sweden</item>
+        <item >United Kingdom</item>
+    </string-array>
+    
+
+</resources>
