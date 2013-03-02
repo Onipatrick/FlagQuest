@@ -11,11 +11,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class North extends Activity {
+public class North10 extends Activity {
 
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.northamerica);
+        setContentView(R.layout.northamerica10);
         
             //Accesses Text View by the ID    
             final TextView setTextView = ((TextView) findViewById (R.id.txtNorth));
@@ -23,7 +23,7 @@ public class North extends Activity {
             //Retrieves string array from strings.xml and stores it in the variable 'country'
             final String[] country = res.getStringArray(R.array.north_country_names);
             //The country variable can now declare any item in the array by indicating its position
-            setTextView.setText(country[0]);
+            setTextView.setText(country[9]);
             
             
             final MediaPlayer mpCorrect;
@@ -39,7 +39,7 @@ public class North extends Activity {
     			public void onClick(View v) {
     				
     				mpIncorrect.start();
-    				Toast.makeText(North.this, "Incorrect, please try again.", Toast.LENGTH_SHORT).show();
+    				Toast.makeText(North10.this, "Incorrect, please try again.", Toast.LENGTH_SHORT).show();
     			}
 
             	
@@ -52,7 +52,7 @@ public class North extends Activity {
     			@Override
     			public void onClick(View v) {
     				mpCorrect.start();    				
-    				startActivity(new Intent(North.this, North2.class));
+    				startActivity(new Intent(North10.this, Main.class));
     			}
 
             	
@@ -65,7 +65,7 @@ public class North extends Activity {
     			@Override
     			public void onClick(View v) {
     				mpIncorrect.start();
-    				Toast.makeText(North.this, "Incorrect, please try again.", Toast.LENGTH_SHORT).show();
+    				Toast.makeText(North10.this, "Incorrect, please try again.", Toast.LENGTH_SHORT).show();
     			}
 
             	
