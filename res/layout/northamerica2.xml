@@ -21,7 +21,15 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
-        android:src="@drawable/na_cuba" />
+        android:src="@drawable/na_honduras" />
+     <ImageView
+        android:id="@+id/flag1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/na_costarica" />
     <ImageView
         android:id="@+id/flag1_2"
         android:layout_width="wrap_content"
@@ -29,14 +37,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
-        android:src="@drawable/na_unitedstates" />
-    <ImageView
-        android:id="@+id/flag1_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="25dp"
-        android:layout_marginTop="25dp"
-        android:src="@drawable/na_panama" />
+        android:src="@drawable/na_canada" />
+   
 
 </LinearLayout>

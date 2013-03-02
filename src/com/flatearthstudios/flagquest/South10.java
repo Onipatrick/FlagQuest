@@ -30,8 +30,8 @@ public class South10 extends Activity {public void onCreate(Bundle savedInstance
         mpIncorrect = MediaPlayer.create(this, R.raw.incorrect);
         
         //If flag 1
-    	ImageView imgBtnNorth = (ImageView) findViewById(R.id.flag1_1);
-		imgBtnNorth.setOnClickListener(new OnClickListener() {
+    	ImageView imgBtnFlag1 = (ImageView) findViewById(R.id.flag1_1);
+		imgBtnFlag1.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
@@ -44,8 +44,8 @@ public class South10 extends Activity {public void onCreate(Bundle savedInstance
         });
 
 		//If flag 2
-		ImageView imgBtnSouth = (ImageView) findViewById(R.id.flag1_2);
-		imgBtnSouth.setOnClickListener(new OnClickListener() {
+		ImageView imgBtnFlag2 = (ImageView) findViewById(R.id.flag1_2);
+		imgBtnFlag2.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
@@ -57,8 +57,8 @@ public class South10 extends Activity {public void onCreate(Bundle savedInstance
         });
 
 		//If flag 3
-		ImageView imgBtnEurope = (ImageView) findViewById(R.id.flag1_3);
-		imgBtnEurope.setOnClickListener(new OnClickListener() {
+		ImageView imgBtnFlag3 = (ImageView) findViewById(R.id.flag1_3);
+		imgBtnFlag3.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
