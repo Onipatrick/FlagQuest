@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/blank"
         android:textColor="#FFFFFF"
         android:textSize="38sp" />
 
@@ -21,6 +22,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
+        android:contentDescription="@string/blank"
         android:src="@drawable/sa_colombia" />
     <ImageView
         android:id="@+id/flag1_1"
@@ -29,7 +31,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
-        android:src="@drawable/na_guatemala" />    
+        android:contentDescription="@string/blank"
+        android:src="@drawable/sa_ecuador" />    
     <ImageView
         android:id="@+id/flag1_3"
         android:layout_width="wrap_content"
@@ -37,6 +40,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
-        android:src="@drawable/na_mexico" />
+        android:contentDescription="@string/blank"
+        android:src="@drawable/sa_peru" />
 
 </LinearLayout>

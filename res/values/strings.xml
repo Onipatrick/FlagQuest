@@ -44,6 +44,7 @@
         <item >Sweden</item>
         <item >United Kingdom</item>
     </string-array>
+    <string name="blank"> </string>
     
 
 </resources>
