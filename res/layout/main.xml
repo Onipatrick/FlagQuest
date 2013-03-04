@@ -13,7 +13,7 @@
     tools:context=".Main" >
 
     <ImageView
-        android:id="@+id/imgIntro"
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -37,7 +37,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imgIntro"
+        android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:text="@string/menu_instructions"
@@ -61,7 +61,7 @@
         android:id="@+id/imgBtnEurope"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imgIntro"
+        android:layout_alignLeft="@+id/imageView1"
         android:layout_alignParentBottom="true"
         android:adjustViewBounds="true"
         android:contentDescription="@string/europe"
