@@ -29,9 +29,9 @@
         android:layout_alignLeft="@+id/imgBtnSouth"
         android:adjustViewBounds="true"
         android:contentDescription="@string/north_america"
+        android:onClick="@drawable/focusnorthamerica_btn_img"
         android:scaleType="fitCenter"
         android:src="@drawable/northamerica_btn_img" />
-       
 
     <TextView
         android:id="@+id/textView1"
@@ -53,6 +53,7 @@
         android:layout_alignLeft="@+id/imgBtnEurope"
         android:adjustViewBounds="true"
         android:contentDescription="@string/south_america"
+        android:onClick="@drawable/focussouthamerica_btn_img"
         android:scaleType="fitCenter"
         android:src="@drawable/southamerica_btn_img" />
 
@@ -64,6 +65,7 @@
         android:layout_alignParentBottom="true"
         android:adjustViewBounds="true"
         android:contentDescription="@string/europe"
+        android:onClick="@drawable/focuseurope_btn_img"
         android:scaleType="fitCenter"
         android:src="@drawable/europe_btn_img" />
 
