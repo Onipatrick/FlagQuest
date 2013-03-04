@@ -20,7 +20,7 @@ public class Intro1 extends Activity {
 			public void run() {
 				// TODO Auto-generated method stub
 				finish();
-				startActivity(new Intent(Intro1.this, Intro2.class));
+				startActivity(new Intent(Intro1.this, Main.class));
 			}
 		
 	};
