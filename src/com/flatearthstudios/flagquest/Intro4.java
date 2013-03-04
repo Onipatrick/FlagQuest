@@ -7,12 +7,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class Intro1 extends Activity {
+public class Intro4 extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.intro1);
+		setContentView(R.layout.intro4);
 		
 		TimerTask task = new TimerTask(){
 
@@ -20,7 +20,7 @@ public class Intro1 extends Activity {
 			public void run() {
 				// TODO Auto-generated method stub
 				finish();
-				startActivity(new Intent(Intro1.this, Intro2.class));
+				startActivity(new Intent(Intro4.this, Main.class));
 			}
 		
 	};

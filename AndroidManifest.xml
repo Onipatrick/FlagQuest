@@ -24,6 +24,9 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
+        <activity android:name=".Intro2" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Intro3" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Intro4" android:screenOrientation="portrait"></activity>
         <activity android:name=".North" android:screenOrientation="portrait"></activity>
         <activity android:name=".South" android:screenOrientation="portrait"></activity>
         <activity android:name=".Europe" android:screenOrientation="portrait"></activity>
