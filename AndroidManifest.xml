@@ -14,15 +14,15 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <!-- android:screenOrientation="portrait" locks the orientation in portrait mode -->
-        <activity android:name=".Intro1" android:screenOrientation="portrait"></activity><activity
-            android:name="com.flatearthstudios.flagquest.Main"
+        <activity android:name=".Intro1" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity><activity
+            android:name=".Main"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".North" android:screenOrientation="portrait"></activity>
         <activity android:name=".South" android:screenOrientation="portrait"></activity>
