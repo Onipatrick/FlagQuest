@@ -48,7 +48,6 @@ public class North extends Activity {
     		//If flag 2
     		ImageView imgBtnSouth = (ImageView) findViewById(R.id.flag1_2);
     		imgBtnSouth.setOnClickListener(new OnClickListener() {
-
     			@Override
     			public void onClick(View v) {
     				mpCorrect.start();    				
@@ -70,9 +69,5 @@ public class North extends Activity {
 
             	
             });
-
-  
-
-	};
-
+	}
 }//End North Activity

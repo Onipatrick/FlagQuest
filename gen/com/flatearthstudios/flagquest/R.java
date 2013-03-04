@@ -45,28 +45,26 @@ public final class R {
         public static final int na_panama=0x7f02001a;
         public static final int na_unitedstates=0x7f02001b;
         public static final int northamerica_btn_img=0x7f02001c;
-        public static final int outro1=0x7f02001d;
-        public static final int outro2=0x7f02001e;
-        public static final int sa_argentina=0x7f02001f;
-        public static final int sa_bolivia=0x7f020020;
-        public static final int sa_brazil=0x7f020021;
-        public static final int sa_chile=0x7f020022;
-        public static final int sa_colombia=0x7f020023;
-        public static final int sa_ecuador=0x7f020024;
-        public static final int sa_paraguay=0x7f020025;
-        public static final int sa_peru=0x7f020026;
-        public static final int sa_uruguay=0x7f020027;
-        public static final int sa_venezuela=0x7f020028;
-        public static final int southamerica_btn_img=0x7f020029;
+        public static final int sa_argentina=0x7f02001d;
+        public static final int sa_bolivia=0x7f02001e;
+        public static final int sa_brazil=0x7f02001f;
+        public static final int sa_chile=0x7f020020;
+        public static final int sa_colombia=0x7f020021;
+        public static final int sa_ecuador=0x7f020022;
+        public static final int sa_paraguay=0x7f020023;
+        public static final int sa_peru=0x7f020024;
+        public static final int sa_uruguay=0x7f020025;
+        public static final int sa_venezuela=0x7f020026;
+        public static final int southamerica_btn_img=0x7f020027;
     }
     public static final class id {
         public static final int flag1_1=0x7f090002;
         public static final int flag1_2=0x7f090003;
         public static final int flag1_3=0x7f090004;
-        public static final int imageView1=0x7f090006;
         public static final int imgBtnEurope=0x7f09000a;
         public static final int imgBtnNorth=0x7f090007;
         public static final int imgBtnSouth=0x7f090008;
+        public static final int imgIntro=0x7f090006;
         public static final int layout=0x7f090000;
         public static final int mainLayout=0x7f090005;
         public static final int menu_settings=0x7f09000d;
@@ -118,13 +116,13 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int blank=0x7f050007;
-        public static final int europe=0x7f050004;
-        public static final int hello_world=0x7f050001;
-        public static final int menu_instructions=0x7f050003;
-        public static final int menu_settings=0x7f050002;
-        public static final int north_america=0x7f050005;
-        public static final int south_america=0x7f050006;
+        public static final int blank=0x7f050006;
+        public static final int europe=0x7f050003;
+        public static final int home=0x7f050007;
+        public static final int menu_instructions=0x7f050002;
+        public static final int menu_settings=0x7f050001;
+        public static final int north_america=0x7f050004;
+        public static final int south_america=0x7f050005;
     }
     public static final class style {
         /** 

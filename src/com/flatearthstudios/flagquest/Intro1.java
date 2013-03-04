@@ -5,11 +5,9 @@ import java.util.TimerTask;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 
 public class Intro1 extends Activity {
-	AnimationDrawable introAnimation;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -27,8 +25,8 @@ public class Intro1 extends Activity {
 	};
 	
 	Timer opening = new Timer();
-	opening.schedule(task,5000);
-
-}
+	opening.schedule(task,3500);
+		
+	}
 	
 }
