@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <!-- android:screenOrientation="portrait" locks the orientation in portrait mode -->
-        <activity android:name=".Intro1" android:screenOrientation="portrait">
+        <activity android:name=".Intro1" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -22,29 +22,30 @@
         </activity><activity
             android:name=".Main"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
-        <activity android:name=".North" android:screenOrientation="portrait"></activity>
-        <activity android:name=".South" android:screenOrientation="portrait"></activity>
-        <activity android:name=".Europe" android:screenOrientation="portrait"></activity>
-        <activity android:name=".North2"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North3"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North4"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North5"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North6"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North7"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North8"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North9"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".North10"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South2"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South3"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South4"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South5"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South6"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South7"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South8"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South9"  android:screenOrientation="portrait"></activity>
-        <activity android:name=".South10"  android:screenOrientation="portrait"></activity>
+        <activity android:name=".North" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North2"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North3"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North4"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North5"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North6"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North7"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North8"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North9"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".North10"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South2"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South3"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South4"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South5"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South6"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South7"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South8"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South9"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".South10"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
         
     </application>
 
