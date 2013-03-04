@@ -5,6 +5,5 @@
     android:background="@drawable/intro"
     android:contentDescription="@string/blank"
     android:orientation="vertical" >
-
 </LinearLayout>
 

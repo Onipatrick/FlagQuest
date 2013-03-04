@@ -1,5 +1,6 @@
 package com.flatearthstudios.flagquest;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -15,11 +16,15 @@ public class Main extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		
+		final MediaPlayer clickSound;
+		clickSound = MediaPlayer.create(this, R.raw.correct);
+		
 		ImageView imgBtnNorth = (ImageView) findViewById(R.id.imgBtnNorth);
 		imgBtnNorth.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
+				clickSound.start();
 				startActivity(new Intent(Main.this, North.class));
 			}
 
@@ -31,6 +36,7 @@ public class Main extends Activity {
 
 			@Override
 			public void onClick(View v) {
+				clickSound.start();
 				startActivity(new Intent(Main.this, South.class));
 			}
 
@@ -42,6 +48,7 @@ public class Main extends Activity {
 
 			@Override
 			public void onClick(View v) {
+				clickSound.start();
 				startActivity(new Intent(Main.this, Europe.class));
 			}
 
