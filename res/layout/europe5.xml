@@ -14,7 +14,16 @@
         android:contentDescription="@string/blank"
         android:textColor="#FFFFFF"
         android:textSize="38sp" />
-
+    
+	<ImageView
+        android:id="@+id/flag1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/blank"
+        android:src="@drawable/eu_italy" />
     <ImageView
         android:id="@+id/flag1_1"
         android:layout_width="wrap_content"
@@ -23,16 +32,7 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
         android:contentDescription="@string/blank"
-        android:src="@drawable/eu_france" />
-    <ImageView
-        android:id="@+id/flag1_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="25dp"
-        android:layout_marginTop="25dp"
-        android:contentDescription="@string/blank"
-        android:src="@drawable/eu_austria" />
+        android:src="@drawable/eu_romania" />    
     <ImageView
         android:id="@+id/flag1_3"
         android:layout_width="wrap_content"
@@ -41,6 +41,6 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
         android:contentDescription="@string/blank"
-        android:src="@drawable/eu_sweden" />
+        android:src="@drawable/eu_austria" />
 
 </LinearLayout>

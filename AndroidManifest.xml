@@ -28,6 +28,15 @@
         <activity android:name=".North" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
         <activity android:name=".South" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
         <activity android:name=".Europe" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe2" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe3" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe4" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe5" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe6" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe7" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe8" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe9" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
+        <activity android:name=".Europe10" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
         <activity android:name=".North2"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
         <activity android:name=".North3"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>
         <activity android:name=".North4"  android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"></activity>

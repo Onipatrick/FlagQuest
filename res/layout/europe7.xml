@@ -23,7 +23,7 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
         android:contentDescription="@string/blank"
-        android:src="@drawable/eu_france" />
+        android:src="@drawable/eu_spain" />
     <ImageView
         android:id="@+id/flag1_2"
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
         android:contentDescription="@string/blank"
-        android:src="@drawable/eu_austria" />
+        android:src="@drawable/eu_russia" />
     <ImageView
         android:id="@+id/flag1_3"
         android:layout_width="wrap_content"
@@ -41,6 +41,6 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="25dp"
         android:contentDescription="@string/blank"
-        android:src="@drawable/eu_sweden" />
+        android:src="@drawable/eu_france" />
 
 </LinearLayout>
